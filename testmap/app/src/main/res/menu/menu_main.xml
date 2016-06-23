@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testmap.MainActivity">
+    <item
+        android:id="@+id/mapcommon"
+        android:orderInCategory="100"
+        android:title="普通地图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mapsite"
+        android:orderInCategory="100"
+        android:title="卫星地图"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/mapTraffic"
+    android:orderInCategory="100"
+    android:title="实时交通"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/map_common"
+        android:showAsAction="never"
+        android:title="普通模式"/>
+    <item
+        android:id="@+id/map_follow"
+        android:showAsAction="never"
+        android:title="跟随模式"/>
+    <item
+        android:id="@+id/map_compass"
+        android:showAsAction="never"
+        android:title="罗盘模式"/>
+
+    <item
+        android:id="@+id/mserch"
+        android:orderInCategory="100"
+        android:title="百度查询"
+        app:showAsAction="never" />
+</menu>
